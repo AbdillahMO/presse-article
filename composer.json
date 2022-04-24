@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Domain": "src/Domain",
-            "Infrastructure": "src/Infrastructure"
+            "Domain\\": "src/Domain/",
+            "Infrastructure\\": "src/Infrastructure/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "Tests\\": "tests/"
         }
     },
     "replace": {
