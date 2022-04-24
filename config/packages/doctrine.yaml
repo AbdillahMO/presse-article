@@ -12,8 +12,8 @@ doctrine:
     mappings:
       App:
         is_bundle: false
-        dir: "%kernel.project_dir%/src/Infrastructure/Symfony/ViewModel"
-        prefix: 'Infrastructure\Symfony\ViewModel'
+        dir: "%kernel.project_dir%/src/Infrastructure/Doctrine"
+        prefix: 'App\Infrastructure\Doctrine\Entity'
         alias: App
 
 when@test:

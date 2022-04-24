@@ -18,10 +18,12 @@ services:
     resource: "../src/Domain"
     exclude:
       - "../src/Domain/Entity/"
+
   Infrastructure\:
     resource: "../src/Infrastructure"
     exclude:
       - "../src/Infrastructure/Symfony/Kernel.php"
+
   Infrastructure\Symfony\Controller\:
     resource: "../src/Infrastructure/Symfony/Controller/"
     tags: ["controller.service_arguments"]
